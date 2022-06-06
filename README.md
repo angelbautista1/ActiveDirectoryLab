@@ -1,7 +1,5 @@
 <h1>Active Directory Home Lab</h1>
 
- ### [YouTube Demonstration](https://youtu.be/7eJexJVCqJo)
-
 <h2>Description</h2>
 Project includes a simple setup of an Active Directory home lab environment where I can learn to understand how active directory works.
 <br />
