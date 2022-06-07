@@ -18,12 +18,19 @@ Project includes a simple setup of an Active Directory home lab environment wher
 <h2>Program walk-through:</h2>
 
 <p align="center">
-Launch the utility: <br/>
-<img src="https://i.imgur.com/62TgaWL.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<h3>Set up the lab: </h3>
+ I downloaded isos for Windows Server 2019 and Windows 10 Enterprise. I changed network settings for Windows Server 2019 where I changed Adapter 1 to NAT and Adapter 2 to internal network.
 <br />
+I changed the network settings for the Windows Server 2019 Image by going to the internal connection and changing the properties and put the ip address 172.16.0.1 with /24 as the subnet mask. No need for a gateway, as the IP for the internal network is itself. For the DNS sever, I used 127.0.0.1 as it is a loopback address which means that it loops back to itself. <br />
+<br /> 
+ Internet Access: <br/>
+<img src="https://i.imgur.com/2uFKdYt.jpg" height="80%" width="80%" alt="Internet Access"/>
 <br />
-Select the disk:  <br/>
-<img src="https://i.imgur.com/tcTyMUE.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<h3>Active Directory Users and Computers: </h3>
+I created new groups in Active Directory Users and Computers, one for admins and one for users. I wanted to create an administrative account.
+
+<br>New Groups in Active Directory:  <br/>
+<img src="https://i.imgur.com/UZA6x3c.jpg" height="80%" width="80%" alt="New Groups in Active Directory"/>
 <br />
 <br />
 
